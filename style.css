@@ -1,0 +1,174 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+th{
+     border: 1px solid black;
+     border-collapse: collapse;
+}
+table{
+    width: 90%;
+    border-style: 1px solid black ;
+}
+
+input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+:hover::placeholder{
+    font-family: "Courier New", monospace;
+}
+.negro{
+    color: white;
+    background-color: black;
+}
+
+.blanco{
+    color: black;
+    background-color: white;
+}
+
+.small-letras{
+    font-size: 8px;
+}
+
+.medium-letras{
+    font-size: 12px;
+}
+
+.large-letras{
+    font-size: 16px;
+}
+
+img{
+    width: 300px;
+    
+}
+
+.container{
+    max-width: 900px;
+}
+
+#imagen-principal{
+    width: 400px;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+
+.info{
+    width: 50px;
+    height: 50px;
+}
+
+/*.c{
+    width: 100px;
+    height: 500px;
+    background-color: #c9e167;
+    text-align: center;
+}*/
+/*.c2{
+    height: 250px;
+    background-color: pink;
+}*/
+.c1{
+    height: 200px;
+    background-color: yellow;
+}
+.video{
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.contain { 
+    display: flex; 
+    align-items: center;
+    background-color: rgb(127, 255, 157);
+    height: 100%;
+}
+
+.cont1, .cont2 {
+    float: left; 
+    width: 45%; 
+    margin: 10px; 
+}
+.foto{
+    width: 600px;
+    height: 330px;
+}
+.gal{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+    
+}
+.fgal{
+    background-color: coral;
+    height: 500px;
+}
+#encuentranos{
+    
+    padding-top: 20%;
+}
+
+.fondo{
+    background-color: aquamarine;
+}
+
+@media (max-width: 768px) {
+    nav {
+      font-size: 16px;
+}
+
+ul {
+      flex-direction: column;
+}
+
+li {
+      margin: 10px 0;
+}
+}
+nav {
+    background-color: #333;
+    font-size: 18px;
+    height: 40px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #555;
+}
